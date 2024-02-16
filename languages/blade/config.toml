@@ -1,0 +1,25 @@
+name = "Laravel Blade"
+grammar = "blade"
+path_suffixes = ["blade.php"]
+autoclose_before = ">})"
+block_comment = ["{{-- ", " --}}"]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = [
+        "comment",
+        "string",
+    ] },
+    { start = "<", end = ">", close = true, newline = true, not_in = [
+        "comment",
+        "string",
+    ] },
+    { start = "!--", end = " --", close = true, newline = false, not_in = [
+        "comment",
+        "string",
+    ] },
+]
+word_characters = ["-"]
+# won't work b/c the prettier plugin name is in a Rust file
+# prettier_parser_name = "blade"

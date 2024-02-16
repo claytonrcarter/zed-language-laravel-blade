@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+cd node_modules/tree-sitter-blade
+
+../tree-sitter-cli/tree-sitter generate
+
+# requires emscripten *or* docker
+../tree-sitter-cli/tree-sitter build-wasm
+
+cp tree-sitter-blade.wasm ../../grammars/blade.wasm

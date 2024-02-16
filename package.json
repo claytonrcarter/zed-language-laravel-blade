@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "tree-sitter-blade": "github:EmranMR/tree-sitter-blade#5cb961456a9ecc9a627df6d3ec3d1f24121b013d"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.21.0-pre-release-1"
+  }
+}
