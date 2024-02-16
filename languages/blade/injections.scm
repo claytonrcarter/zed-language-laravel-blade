@@ -12,8 +12,9 @@
 
 
 ((php_only) @content
-    (#set! "language" php))
+    (#set! "language" "php"))
 ((parameter) @content
-    (#set! "language" php))
-((blade) @content
-    (#set! "language" html))
+    (#set! "language" "php"))
+((text) @content
+    (#set! "language" "html")
+    (#set! "combined"))
