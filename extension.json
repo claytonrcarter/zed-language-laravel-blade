@@ -1,7 +1,0 @@
-{
-  "name": "Laravel Blade",
-  "version": "0.0.1",
-  "authors": ["Clayton Carter <claytonrcarter@gmail.com>"],
-  "description": "Laravel Blade support for Zed",
-  "repository": "https://github.com/claytonrcarter/zed-language-laravel-blade"
-}

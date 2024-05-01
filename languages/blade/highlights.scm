@@ -1,4 +1,4 @@
-(directive) @keyword
-(directive_start) @keyword
-(directive_end) @keyword
+(directive) @function.builtin
+(directive_start) @function.builtin
+(directive_end) @function.builtin
 (comment) @comment
